@@ -142,8 +142,8 @@ sap.ui.define(
 
 
 
-        var uploadSet = this.getView().mAggregations.content[0].mAggregations.pages[0].mAggregations.sections[6].mAggregations._grid.mAggregations.content[0].mAggregations.blocks[0];
-        uploadSet.setUploadButtonInvisible(true);
+        // var uploadSet = this.getView().mAggregations.content[0].mAggregations.pages[0].mAggregations.sections[6].mAggregations._grid.mAggregations.content[0].mAggregations.blocks[0];
+        // uploadSet.setUploadButtonInvisible(true);
         // uploadSet.setMode("None");
         // Third AJAX call for PDF files
         setTimeout(function () {
@@ -389,8 +389,8 @@ sap.ui.define(
         var userPassword = credentials.userpassword;
         debugger
         oEvent.preventDefault();
-        var baseUrl = "https://d7bdbaaatrial-dev-mahindra-sales-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/my/";
-        // var baseUrl = "https://44f10b5ftrial-dev1-mahindra-sales-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/my/";
+        // var baseUrl = "https://d7bdbaaatrial-dev-mahindra-sales-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/my/";
+        var baseUrl = "https://44f10b5ftrial-dev1-mahindra-sales-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/my/";
 
         var accessToken = null;
         let fileurl = oEvent.getSource().getUrl();
